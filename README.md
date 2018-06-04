@@ -14,7 +14,7 @@ with this application you can use generate reports by sending the details as jso
 - Java 8
 - Maven > 3.0
 
-
+### Configurations:
 make sure add your credentials (bucket name , access key , secret key) in application.properties inside this path 
 ```sh
 /src/main/resources
@@ -22,7 +22,7 @@ make sure add your credentials (bucket name , access key , secret key) in applic
 
 ### Run the application:
 
-open terminal and type : 
+Go on the project's root folder, then type: 
 ```sh
 mvn spring-boot:run
 ```
