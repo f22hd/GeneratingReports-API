@@ -30,17 +30,21 @@ mvn spring-boot:run
 Import as Existing Maven Project and run it as Spring Boot App.
 
 
-you can use [Postman](https://www.getpostman.com/) and sending the requests ( POST , GET ..etc) to application 
-   new report request:
+you can use [Postman](https://www.getpostman.com/) and sending the requests ( POST , GET ..etc) to application.
+   New report:
  - POST  http://localhost:5000/report/ 
  - Header: Content-Type   Application/json
- - initial request body : 
- > { "title" : "", "body" : "" } 
+ - Body :  { "title" : "", "body" : "" } -- initial body
  
- list reports request :
+ List reports :
  - GET http://localhost:5000/report/
  - Header:  Content-Type  Application/json
 
+ Delete Report:
+ - POST http://localhost:5000/report/delete/
+ - Header:  Content-Type  Application/json
+ - Body : {"fileName" : "report.pdf"}
+ 
  
 ### development:
 Want to contribute? Great!
