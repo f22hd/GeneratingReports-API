@@ -20,13 +20,28 @@ make sure add your credentials (bucket name , access key , secret key) in applic
 /src/main/resources
 ```
 
-### Run the application:
-
+## Usage
+### Using the terminal
 Go on the project's root folder, then type: 
 ```sh
 mvn spring-boot:run
 ```
+### Using eclipse IDE or Spring Tool Suite
+Import as Existing Maven Project and run it as Spring Boot App.
 
+
+you can use [Postman](https://www.getpostman.com/) and sending the requests ( POST , GET ..etc) to application 
+   new report request:
+ - POST  http://localhost:5000/report/ 
+ - Header: Content-Type   Application/json
+ - initial request body : 
+ > { "title" : "", "body" : "" } 
+ 
+ list reports request :
+ - GET http://localhost:5000/report/
+ - Header:  Content-Type  Application/json
+
+ 
 ### development:
 Want to contribute? Great!
 
