@@ -10,7 +10,7 @@ with this application you can use generate reports by sending the details as jso
 - after created the pdf file , application will use aws library to upload that file into specific bucket in S3.
 - result object will return as response.
 
-### Prerequisites
+### Prerequisites:
 - Java 8
 - Maven > 3.0
 
@@ -20,14 +20,14 @@ make sure add your credentials (bucket name , access key , secret key) in applic
 /src/main/resources
 ```
 
-### Run the application.
+### Run the application:
 
 open terminal and type : 
 ```sh
 mvn spring-boot:run
 ```
 
-### development
+### development:
 Want to contribute? Great!
 
 after cloned this repository, open your IDE and open that folder.
@@ -38,7 +38,7 @@ now you are ready to change the code and add more features and fixing the bugs.
 don't forget to do pull request to get your changes and open issue if you have any issue with.
 
 
-#### Resources
+#### Resources:
  - Spring Boot http://spring.io/projects/spring-boot
  - itextpdf https://developers.itextpdf.com/
  - aws sdk documentation https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html
